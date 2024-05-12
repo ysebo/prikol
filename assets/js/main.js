@@ -1,19 +1,16 @@
 
-/*Showing Hidden Menu (Y)*/
+
 const navMenu=document.getElementById('nav-menu'),
     navToggle=document.getElementById('nav-toggle'),
     navClose=document.getElementById('nav-close');
 
-/*Show Menu, again :(*/
 if(navToggle){
-    //I just learned how to use arrow functions: too cool to not use.
+   
     navToggle.addEventListener('click', ()=>{
         navMenu.classList.add('show-menu')
     })
-    //now that I made show menu, I will introduce its style in css
 }
 
-/*Hide the menu, again*/
 if(navClose){
     //define an arrow function 
     navClose.addEventListener('click', ()=> 

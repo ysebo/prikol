@@ -641,7 +641,7 @@ img {
 
 .home_blob-img{
   width:380px;
-  height: 400px;
+  height: 500px;
 }
 
 .home_data{
@@ -865,15 +865,6 @@ img {
 
 }
 
-.skills_react{
-  width: 75%;
-
-}
-
-.skills_ruby{
-  width: 10%;
-
-}
 
 .skills_close .skills_list{
   height: 0;
