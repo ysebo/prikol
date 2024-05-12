@@ -501,6 +501,10 @@ img {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between; /* Aligns logo and nav */
+  align-items: center; /* Vertical alignment */
+  padding: 0 20px; /* Padding on both sides */
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -511,10 +515,9 @@ img {
 
 /*Nav*/
 .nav{
-  max-width: 968px;
-  height: var(--header-height);
   display: flex;
-  justify-content: space-between;
+  width: 100%;
+  justify-content: space-between; /* Ensures space between logo and nav items */
   align-items: center;
 } 
 
@@ -540,6 +543,7 @@ img {
 @media screen and (max-width: 767px){
   .nav_menu{
     position: fixed;
+    flex-direction: column;
     bottom: -100%;
     left: 0;
     width: 100%;
